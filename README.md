@@ -128,8 +128,8 @@ Choose your preferred deployment method based on your needs:
 #### **Option 1: Quick Start with Docker Compose (Full Stack)**
 ```bash
 # Clone the repository
-git clone https://github.com/Ayush-Singh986/devops-monitoring-in-a-box.git
-cd devops-monitoring-in-a-box
+git clone https://github.com/Ayush-Singh986/Devops-Monitoring-Box.git
+cd Devops-Monitoring-Box
 
 # Generate secure secrets (.env and Alertmanager token)
 ./scripts/setup-env.sh
@@ -170,7 +170,7 @@ The UI expects the monitoring backends at their default ports (or `PROMETHEUS_UR
 ### 🌐 **Cloud Deployment**
 
 #### **Vercel (Frontend Only)**
-[![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/Ayush-Singh986/devops-monitoring-in-a-box)
+[![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/Ayush-Singh986/Devops-Monitoring-Box)
 
 ```bash
 # Deploy the UI to Vercel
@@ -180,7 +180,7 @@ vercel --prod
 ```
 
 #### **Netlify (Frontend Only)**
-[![Netlify](https://img.shields.io/badge/Netlify-Deploy-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/Ayush-Singh986/devops-monitoring-in-a-box)
+[![Netlify](https://img.shields.io/badge/Netlify-Deploy-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/Ayush-Singh986/Devops-Monitoring-Box)
 
 ```bash
 # Build and deploy to Netlify
@@ -399,7 +399,7 @@ Every proxied request requires a signed-in user, and each upstream path is match
 
 ## 🤝 Contributing
 
-1. Fork the repository (`git clone https://github.com/Ayush-Singh986/devops-monitoring-in-a-box.git`)
+1. Fork the repository (`git clone https://github.com/Ayush-Singh986/Devops-Monitoring-Box.git`)
 2. Create a feature branch (`git checkout -b feature/awesome-feature`)
 3. Commit your changes (`git commit -m 'Add awesome feature'`)
 4. Push to the branch (`git push origin feature/awesome-feature`)

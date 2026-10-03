@@ -301,7 +301,7 @@ exporters/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/devops-monitoring-in-a-box.git
+   git clone https://github.com/Ayush-Singh986/Devops-Monitoring-Box.git
    cd devops-monitoring-in-a-box
    ```
 

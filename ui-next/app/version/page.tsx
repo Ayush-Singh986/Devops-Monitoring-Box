@@ -14,7 +14,7 @@ import {
 import Link from "next/link"
 
 export default function VersionPage() {
-  const repoUrl = 'https://github.com/NotHarshhaa/devops-monitoring-in-a-box'
+  const repoUrl = 'https://github.com/Ayush-Singh986/Devops-Monitoring-Box'
 
   return (
     <div className="space-y-4 sm:space-y-6">
