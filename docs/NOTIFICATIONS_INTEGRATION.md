@@ -157,7 +157,7 @@ Slack messages include:
 ```yaml
 slack:
   enabled: true
-  webhook_url: "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+  webhook_url: "https://hooks.slack.com/services/YOUR_WORKSPACE/YOUR_CHANNEL/YOUR_TOKEN"
   default_channel: "#alerts"
   username: "DevOps Monitor"
   icon_emoji: ":bell:"
