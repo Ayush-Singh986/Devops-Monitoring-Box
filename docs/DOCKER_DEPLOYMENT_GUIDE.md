@@ -140,10 +140,10 @@ If you only want to run the dashboard:
 
 ```bash
 # Pull the latest image
-docker pull yourusername/devops-monitoring-dashboard:latest
+docker pull ayush244/devops-monitoring-dashboard:latest
 
 # Run the container
-docker run -p 3000:3000 yourusername/devops-monitoring-dashboard:latest
+docker run -p 3000:3000 ayush244/devops-monitoring-dashboard:latest
 ```
 
 ## 🔧 Configuration
@@ -170,14 +170,14 @@ You can override the default configuration by:
    docker run -p 3000:3000 \
      -e SITE_NAME="My Company Monitoring" \
      -e SITE_URL="https://monitoring.mycompany.com" \
-     yourusername/devops-monitoring-dashboard:latest
+     ayush244/devops-monitoring-dashboard:latest
    ```
 
 2. **Configuration Files:**
    ```bash
    docker run -p 3000:3000 \
      -v $(pwd)/config.json:/app/config.json \
-     yourusername/devops-monitoring-dashboard:latest
+     ayush244/devops-monitoring-dashboard:latest
    ```
 
 ## 🐛 Troubleshooting

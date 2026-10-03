@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hub.docker.com/r/harshhaareddy/devops-monitoring-box"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready"/></a>
+  <a href="https://hub.docker.com/r/Ayush244/devops-monitoring-box"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready"/></a>
   <a href="https://devops-monitoring-in-a-box.vercel.app"><img src="https://img.shields.io/badge/Live-Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/></a>
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/></a>
 </p>
@@ -128,7 +128,7 @@ Choose your preferred deployment method based on your needs:
 #### **Option 1: Quick Start with Docker Compose (Full Stack)**
 ```bash
 # Clone the repository
-git clone https://github.com/NotHarshhaa/devops-monitoring-in-a-box.git
+git clone https://github.com/Ayush-Singh986/devops-monitoring-in-a-box.git
 cd devops-monitoring-in-a-box
 
 # Generate secure secrets (.env and Alertmanager token)
@@ -152,8 +152,8 @@ docker compose up -d
 
 #### **Option 3: Pre-built Docker Image**
 ```bash
-docker pull harshhaareddy/devops-monitoring-box:latest
-docker run -d -p 4000:3000 --name devops-monitor harshhaareddy/devops-monitoring-box:latest
+docker pull Ayush244/devops-monitoring-box:latest
+docker run -d -p 4000:3000 --name devops-monitor Ayush244/devops-monitoring-box:latest
 ```
 
 #### **Option 4: Local UI Development**
@@ -170,7 +170,7 @@ The UI expects the monitoring backends at their default ports (or `PROMETHEUS_UR
 ### 🌐 **Cloud Deployment**
 
 #### **Vercel (Frontend Only)**
-[![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/NotHarshhaa/devops-monitoring-in-a-box)
+[![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/Ayush-Singh986/devops-monitoring-in-a-box)
 
 ```bash
 # Deploy the UI to Vercel
@@ -180,7 +180,7 @@ vercel --prod
 ```
 
 #### **Netlify (Frontend Only)**
-[![Netlify](https://img.shields.io/badge/Netlify-Deploy-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/NotHarshhaa/devops-monitoring-in-a-box)
+[![Netlify](https://img.shields.io/badge/Netlify-Deploy-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/Ayush-Singh986/devops-monitoring-in-a-box)
 
 ```bash
 # Build and deploy to Netlify
@@ -399,7 +399,7 @@ Every proxied request requires a signed-in user, and each upstream path is match
 
 ## 🤝 Contributing
 
-1. Fork the repository (`git clone https://github.com/NotHarshhaa/devops-monitoring-in-a-box.git`)
+1. Fork the repository (`git clone https://github.com/Ayush-Singh986/devops-monitoring-in-a-box.git`)
 2. Create a feature branch (`git checkout -b feature/awesome-feature`)
 3. Commit your changes (`git commit -m 'Add awesome feature'`)
 4. Push to the branch (`git push origin feature/awesome-feature`)
@@ -424,32 +424,16 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🛠️ Author & Community
 
-Built with passion and purpose by [**Harshhaa**](https://github.com/NotHarshhaa).  
+Built with passion and purpose by [**Ayush**](https://github.com/Ayush-Singh986).  
 Your ideas, feedback, and contributions are what make this project better.
 
 Let’s shape the future of DevOps monitoring together! 🚀
 
 **Connect & Collaborate:**  
 
-* **GitHub:** [@NotHarshhaa](https://github.com/NotHarshhaa)  
+* **GitHub:** [@Ayush-Singh986](https://github.com/Ayush-Singh986)  
 * **Blog:** [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
 * **Telegram Community:** [Join Here](https://t.me/prodevopsguy)  
-* **LinkedIn:** [Harshhaa Vardhan Reddy](https://www.linkedin.com/in/harshhaa-vardhan-reddy/)  
+* **LinkedIn:** [Ayush Singh](https://www.linkedin.com/in/ayush-singh-59469b310/)  
 
 ---
-
-## ⭐ How You Can Support
-
-If you found this project useful:  
-
-* ⭐ **Star** the repository to show your support  
-* 📢 **Share** it with your friends and colleagues  
-* 📝 **Open issues** or **submit pull requests** to help improve it
-
----
-
-### 📢 Stay Connected
-
-[![Follow Me](https://imgur.com/2j7GSPs.png)](https://github.com/NotHarshhaa)
-
-Join the community, share your experience, and help us grow!
